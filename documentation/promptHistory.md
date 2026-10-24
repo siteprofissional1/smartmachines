@@ -66,6 +66,19 @@ melhora a responsatividade para mim nao ter que tirar zoom, para ele se adaptar 
 sobe no meu github criei um repo so pra isso siteprofissional1/smartmachines (https://github.com/siteprofissional1/smartmachines)
 ```
 
+### Prompt 7 — Configuração de Deploy Contínuo (CI/CD GitHub ➔ Vercel)
+**Data/Hora:** 2026-10-24 12:40:19 BRT  
+**Autor:** Usuário
+
+```text
+ativei o github pages
+to fazendo o import no vercel
+fiz aqui
+tem o link SmartMachines — Inteligência em Manutenção Preditiva (https://smartmachines-seven.vercel.app/)
+quero fazer um negocio que se atualizar no github atualiza no vercel
+```
+
+
 
 
 

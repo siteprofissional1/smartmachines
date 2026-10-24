@@ -12,6 +12,9 @@
 **Plataforma de Manutenção Preditiva, Telemetria Industrial e Inteligência Operacional para a Indústria 4.0**  
 *Desenvolvido no Hackathon Antigravity do SENAI Ourinhos no curso de Aplicações com IA Generativa.*
 
+🚀 **Ambiente de Produção Online (Vercel):** [https://smartmachines-seven.vercel.app/](https://smartmachines-seven.vercel.app/)  
+🐙 **Repositório GitHub:** [https://github.com/siteprofissional1/smartmachines](https://github.com/siteprofissional1/smartmachines)
+
 [English Overview](#english-overview) • [Visão em Português](#visão-geral-pt-br) • [Arquitetura](#arquitetura-em-3-camadas) • [9 Pilares](#matriz-dos-9-pilares-do-hackathon) • [Roteiro de Demonstração](#roteiro-de-demonstração-pitch-flow) • [Instalação](#instalação-e-execução)
 
 </div>
