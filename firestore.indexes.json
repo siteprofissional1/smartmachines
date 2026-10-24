@@ -1,0 +1,21 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "machines",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "linha_producao", "order": "ASCENDING" },
+        { "fieldPath": "risco_parada_percent", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "machines",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "status_operacional", "order": "ASCENDING" },
+        { "fieldPath": "risco_parada_percent", "order": "DESCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

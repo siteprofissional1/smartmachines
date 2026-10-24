@@ -1,0 +1,31 @@
+name: Sync Operational Intelligence
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *' # Executa a cada 6 horas
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Python Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Operational Intelligence Pipeline
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          FIREBASE_SERVICE_ACCOUNT_PATH: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PATH }}
+        run: |
+          python scripts/analyze_dataset.py
+          python scripts/build_frontend_data.py
+          python scripts/sync_intelligence.py

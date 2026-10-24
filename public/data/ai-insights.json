@@ -1,0 +1,157 @@
+[
+  {
+    "insight_id": "INS-EQP-0358",
+    "machine_id": "EQP-0358",
+    "equipment_type": "Seladora Térmica Industrial",
+    "line": "Linha C - Embalagem",
+    "priority": "critical",
+    "summary": "Intervenção preditiva urgente em Seladora Térmica Industrial por anomalia de risco crítico de falha.",
+    "observed_signals": [
+      "Temperatura em 89.4 °C",
+      "Vibração mecânica em 5.38 mm/s",
+      "Risco de parada em 98.8%",
+      "Prazo de manutenção em 0 dias"
+    ],
+    "probable_causes": [
+      "Degradação acelerada em Redutor Planetário SEW-Eurodrive",
+      "Folga mecânica ou falta de lubrificação sob sobrecarga operacional"
+    ],
+    "recommended_actions": [
+      "Inspecionar imediatamente Redutor Planetário SEW-Eurodrive (SEW-R47-AD2)",
+      "Executar medição de vibração triaxial e termografia",
+      "Solicitar cotação de reserva junto ao fornecedor SEW-Eurodrive Brasil",
+      "Agendar janela de manutenção para os próximos dias"
+    ],
+    "component_to_inspect": "Redutor Planetário SEW-Eurodrive",
+    "recommended_window": "Intervir em até 0 dias",
+    "purchase_recommendation": "Cotação com fornecedor SEW-Eurodrive Brasil indicada.",
+    "reasoning_summary": "Os parâmetros físicos ultrapassaram os limiares de segurança da classe operacional, indicando risco severo de downtime não planejado.",
+    "limitations": "Análise preditiva baseada em telemetria discreta; confirmação em campo necessária.",
+    "generated_at": "2026-10-24T10:30:00Z",
+    "model": "Gemini 2.0 Flash (Industrial Predictive Agent)"
+  },
+  {
+    "insight_id": "INS-EQP-0497",
+    "machine_id": "EQP-0497",
+    "equipment_type": "Codificador Inkjet Videojet",
+    "line": "Linha B - Rotulagem",
+    "priority": "critical",
+    "summary": "Intervenção preditiva urgente em Codificador Inkjet Videojet por anomalia de risco crítico de falha.",
+    "observed_signals": [
+      "Temperatura em 89.5 °C",
+      "Vibração mecânica em 5.73 mm/s",
+      "Risco de parada em 98.8%",
+      "Prazo de manutenção em 0 dias"
+    ],
+    "probable_causes": [
+      "Degradação acelerada em Bomba Hidráulica de Engrenagens Bosch",
+      "Folga mecânica ou falta de lubrificação sob sobrecarga operacional"
+    ],
+    "recommended_actions": [
+      "Inspecionar imediatamente Bomba Hidráulica de Engrenagens Bosch (REXROTH-AZPF-12)",
+      "Executar medição de vibração triaxial e termografia",
+      "Solicitar cotação de reserva junto ao fornecedor Bosch Rexroth",
+      "Agendar janela de manutenção para os próximos dias"
+    ],
+    "component_to_inspect": "Bomba Hidráulica de Engrenagens Bosch",
+    "recommended_window": "Intervir em até 0 dias",
+    "purchase_recommendation": "Cotação com fornecedor Bosch Rexroth indicada.",
+    "reasoning_summary": "Os parâmetros físicos ultrapassaram os limiares de segurança da classe operacional, indicando risco severo de downtime não planejado.",
+    "limitations": "Análise preditiva baseada em telemetria discreta; confirmação em campo necessária.",
+    "generated_at": "2026-10-24T10:30:00Z",
+    "model": "Gemini 2.0 Flash (Industrial Predictive Agent)"
+  },
+  {
+    "insight_id": "INS-EQP-0426",
+    "machine_id": "EQP-0426",
+    "equipment_type": "Rosqueadora Automática",
+    "line": "Linha A - Envasamento",
+    "priority": "critical",
+    "summary": "Intervenção preditiva urgente em Rosqueadora Automática por anomalia de risco crítico de falha.",
+    "observed_signals": [
+      "Temperatura em 95.2 °C",
+      "Vibração mecânica em 6.16 mm/s",
+      "Risco de parada em 98.3%",
+      "Prazo de manutenção em 0 dias"
+    ],
+    "probable_causes": [
+      "Degradação acelerada em Contator Tripolar Siemens Sirius 3RT",
+      "Folga mecânica ou falta de lubrificação sob sobrecarga operacional"
+    ],
+    "recommended_actions": [
+      "Inspecionar imediatamente Contator Tripolar Siemens Sirius 3RT (SIEMENS-3RT2026)",
+      "Executar medição de vibração triaxial e termografia",
+      "Solicitar cotação de reserva junto ao fornecedor Siemens Brasil",
+      "Agendar janela de manutenção para os próximos dias"
+    ],
+    "component_to_inspect": "Contator Tripolar Siemens Sirius 3RT",
+    "recommended_window": "Intervir em até 0 dias",
+    "purchase_recommendation": "Cotação com fornecedor Siemens Brasil indicada.",
+    "reasoning_summary": "Os parâmetros físicos ultrapassaram os limiares de segurança da classe operacional, indicando risco severo de downtime não planejado.",
+    "limitations": "Análise preditiva baseada em telemetria discreta; confirmação em campo necessária.",
+    "generated_at": "2026-10-24T10:30:00Z",
+    "model": "Gemini 2.0 Flash (Industrial Predictive Agent)"
+  },
+  {
+    "insight_id": "INS-EQP-0344",
+    "machine_id": "EQP-0344",
+    "equipment_type": "Gerador Diesel Cummins",
+    "line": "Linha E - Utilidades e Caldeira",
+    "priority": "critical",
+    "summary": "Intervenção preditiva urgente em Gerador Diesel Cummins por anomalia de risco crítico de falha.",
+    "observed_signals": [
+      "Temperatura em 102.4 °C",
+      "Vibração mecânica em 6.43 mm/s",
+      "Risco de parada em 97.9%",
+      "Prazo de manutenção em 0 dias"
+    ],
+    "probable_causes": [
+      "Degradação acelerada em Sensor Indutivo de Proximidade Sick",
+      "Folga mecânica ou falta de lubrificação sob sobrecarga operacional"
+    ],
+    "recommended_actions": [
+      "Inspecionar imediatamente Sensor Indutivo de Proximidade Sick (SICK-IME12-04B)",
+      "Executar medição de vibração triaxial e termografia",
+      "Solicitar cotação de reserva junto ao fornecedor Sick Sensor Intelligence",
+      "Agendar janela de manutenção para os próximos dias"
+    ],
+    "component_to_inspect": "Sensor Indutivo de Proximidade Sick",
+    "recommended_window": "Intervir em até 0 dias",
+    "purchase_recommendation": "Cotação com fornecedor Sick Sensor Intelligence indicada.",
+    "reasoning_summary": "Os parâmetros físicos ultrapassaram os limiares de segurança da classe operacional, indicando risco severo de downtime não planejado.",
+    "limitations": "Análise preditiva baseada em telemetria discreta; confirmação em campo necessária.",
+    "generated_at": "2026-10-24T10:30:00Z",
+    "model": "Gemini 2.0 Flash (Industrial Predictive Agent)"
+  },
+  {
+    "insight_id": "INS-EQP-0458",
+    "machine_id": "EQP-0458",
+    "equipment_type": "Trocador de Calor a Placas",
+    "line": "Linha D - Processamento Térmico",
+    "priority": "critical",
+    "summary": "Intervenção preditiva urgente em Trocador de Calor a Placas por anomalia de risco crítico de falha.",
+    "observed_signals": [
+      "Temperatura em 93.5 °C",
+      "Vibração mecânica em 6.33 mm/s",
+      "Risco de parada em 97.8%",
+      "Prazo de manutenção em 0 dias"
+    ],
+    "probable_causes": [
+      "Degradação acelerada em Rolamento Autocompensador NSK",
+      "Folga mecânica ou falta de lubrificação sob sobrecarga operacional"
+    ],
+    "recommended_actions": [
+      "Inspecionar imediatamente Rolamento Autocompensador NSK (NSK-22212-E)",
+      "Executar medição de vibração triaxial e termografia",
+      "Solicitar cotação de reserva junto ao fornecedor NSK Rolamentos",
+      "Agendar janela de manutenção para os próximos dias"
+    ],
+    "component_to_inspect": "Rolamento Autocompensador NSK",
+    "recommended_window": "Intervir em até 0 dias",
+    "purchase_recommendation": "Cotação com fornecedor NSK Rolamentos indicada.",
+    "reasoning_summary": "Os parâmetros físicos ultrapassaram os limiares de segurança da classe operacional, indicando risco severo de downtime não planejado.",
+    "limitations": "Análise preditiva baseada em telemetria discreta; confirmação em campo necessária.",
+    "generated_at": "2026-10-24T10:30:00Z",
+    "model": "Gemini 2.0 Flash (Industrial Predictive Agent)"
+  }
+]

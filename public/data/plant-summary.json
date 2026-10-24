@@ -1,0 +1,154 @@
+{
+  "kpis": {
+    "total_machines": 400,
+    "plant_health": 67.07,
+    "critical_machines": 35,
+    "vibration_alerts": 69,
+    "temperature_alerts": 51,
+    "normal_machines": 245,
+    "average_risk": 32.93,
+    "average_oee": 81.02,
+    "average_mtbf": 392.26,
+    "average_mttr": 3.23,
+    "failures_last_30d": 412,
+    "maintenance_due_7d": 133,
+    "maintenance_due_30d": 210
+  },
+  "status_distribution": [
+    {
+      "status": "Operando Normal",
+      "count": 245,
+      "color": "#22C55E"
+    },
+    {
+      "status": "Alerta de Vibração",
+      "count": 69,
+      "color": "#F97316"
+    },
+    {
+      "status": "Atenção - Temperatura",
+      "count": 51,
+      "color": "#F59E0B"
+    },
+    {
+      "status": "Risco Crítico de Falha",
+      "count": 35,
+      "color": "#EF4444"
+    }
+  ],
+  "linhas_producao": [
+    {
+      "linha": "Linha A - Envasamento",
+      "risco_medio": 31.01,
+      "oee_medio": 81.64,
+      "total_maquinas": 75
+    },
+    {
+      "linha": "Linha B - Rotulagem",
+      "risco_medio": 33.85,
+      "oee_medio": 81.28,
+      "total_maquinas": 69
+    },
+    {
+      "linha": "Linha C - Embalagem",
+      "risco_medio": 34.41,
+      "oee_medio": 80.57,
+      "total_maquinas": 82
+    },
+    {
+      "linha": "Linha D - Processamento Térmico",
+      "risco_medio": 32.11,
+      "oee_medio": 81.27,
+      "total_maquinas": 96
+    },
+    {
+      "linha": "Linha E - Utilidades e Caldeira",
+      "risco_medio": 33.43,
+      "oee_medio": 80.36,
+      "total_maquinas": 78
+    }
+  ],
+  "attention_required": [
+    {
+      "maquina_id": "EQP-0358",
+      "tipo_equipamento": "Seladora Térmica Industrial",
+      "linha_producao": "Linha C - Embalagem",
+      "turno_operacao": "Manhã (06h-14h)",
+      "status_operacional": "Risco Crítico de Falha",
+      "risco_parada_percent": 98.8,
+      "health_score": 1.2,
+      "proxima_manutencao_dias": 0,
+      "sensor_temp_c": 89.4,
+      "sensor_vibracao_mm_s": 5.38,
+      "componente_critico": "Redutor Planetário SEW-Eurodrive",
+      "codigo_peca_reposicao": "SEW-R47-AD2",
+      "fornecedor_homologado": "SEW-Eurodrive Brasil",
+      "diagnostico_preditivo_ia": "URGENTE: Degradação severa em Redutor Planetário SEW-Eurodrive (Vibração 5.38 mm/s, Temp 89.4°C). Risco de parada não programada de 98.8%. Emitir Ordem de Serviço imediata e substituir SEW-R47-AD2 (Custo est. R$ 5588.2)."
+    },
+    {
+      "maquina_id": "EQP-0497",
+      "tipo_equipamento": "Codificador Inkjet Videojet",
+      "linha_producao": "Linha B - Rotulagem",
+      "turno_operacao": "Manhã (06h-14h)",
+      "status_operacional": "Risco Crítico de Falha",
+      "risco_parada_percent": 98.8,
+      "health_score": 1.2,
+      "proxima_manutencao_dias": 0,
+      "sensor_temp_c": 89.5,
+      "sensor_vibracao_mm_s": 5.73,
+      "componente_critico": "Bomba Hidráulica de Engrenagens Bosch",
+      "codigo_peca_reposicao": "REXROTH-AZPF-12",
+      "fornecedor_homologado": "Bosch Rexroth",
+      "diagnostico_preditivo_ia": "URGENTE: Degradação severa em Bomba Hidráulica de Engrenagens Bosch (Vibração 5.73 mm/s, Temp 89.5°C). Risco de parada não programada de 98.8%. Emitir Ordem de Serviço imediata e substituir REXROTH-AZPF-12 (Custo est. R$ 3398.57)."
+    },
+    {
+      "maquina_id": "EQP-0426",
+      "tipo_equipamento": "Rosqueadora Automática",
+      "linha_producao": "Linha A - Envasamento",
+      "turno_operacao": "Noite (22h-06h)",
+      "status_operacional": "Risco Crítico de Falha",
+      "risco_parada_percent": 98.3,
+      "health_score": 1.7,
+      "proxima_manutencao_dias": 0,
+      "sensor_temp_c": 95.2,
+      "sensor_vibracao_mm_s": 6.16,
+      "componente_critico": "Contator Tripolar Siemens Sirius 3RT",
+      "codigo_peca_reposicao": "SIEMENS-3RT2026",
+      "fornecedor_homologado": "Siemens Brasil",
+      "diagnostico_preditivo_ia": "URGENTE: Degradação severa em Contator Tripolar Siemens Sirius 3RT (Vibração 6.16 mm/s, Temp 95.2°C). Risco de parada não programada de 98.3%. Emitir Ordem de Serviço imediata e substituir SIEMENS-3RT2026 (Custo est. R$ 237.23)."
+    },
+    {
+      "maquina_id": "EQP-0344",
+      "tipo_equipamento": "Gerador Diesel Cummins",
+      "linha_producao": "Linha E - Utilidades e Caldeira",
+      "turno_operacao": "Tarde (14h-22h)",
+      "status_operacional": "Risco Crítico de Falha",
+      "risco_parada_percent": 97.9,
+      "health_score": 2.1,
+      "proxima_manutencao_dias": 0,
+      "sensor_temp_c": 102.4,
+      "sensor_vibracao_mm_s": 6.43,
+      "componente_critico": "Sensor Indutivo de Proximidade Sick",
+      "codigo_peca_reposicao": "SICK-IME12-04B",
+      "fornecedor_homologado": "Sick Sensor Intelligence",
+      "diagnostico_preditivo_ia": "URGENTE: Degradação severa em Sensor Indutivo de Proximidade Sick (Vibração 6.43 mm/s, Temp 102.4°C). Risco de parada não programada de 97.9%. Emitir Ordem de Serviço imediata e substituir SICK-IME12-04B (Custo est. R$ 301.67)."
+    },
+    {
+      "maquina_id": "EQP-0458",
+      "tipo_equipamento": "Trocador de Calor a Placas",
+      "linha_producao": "Linha D - Processamento Térmico",
+      "turno_operacao": "Noite (22h-06h)",
+      "status_operacional": "Risco Crítico de Falha",
+      "risco_parada_percent": 97.8,
+      "health_score": 2.2,
+      "proxima_manutencao_dias": 0,
+      "sensor_temp_c": 93.5,
+      "sensor_vibracao_mm_s": 6.33,
+      "componente_critico": "Rolamento Autocompensador NSK",
+      "codigo_peca_reposicao": "NSK-22212-E",
+      "fornecedor_homologado": "NSK Rolamentos",
+      "diagnostico_preditivo_ia": "URGENTE: Degradação severa em Rolamento Autocompensador NSK (Vibração 6.33 mm/s, Temp 93.5°C). Risco de parada não programada de 97.8%. Emitir Ordem de Serviço imediata e substituir NSK-22212-E (Custo est. R$ 427.1)."
+    }
+  ],
+  "last_updated": "2026-10-24T10:30:00Z"
+}
